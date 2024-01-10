@@ -1,0 +1,111 @@
+body{
+    background-color: white;
+    background-image: url("assets/dots.PNG");
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+header{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    height: 200px;
+    align-items: center;
+    border: 5px solid black;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 4px 4px 6px 4px gray;
+    font-size: 25px;
+}
+.logo{
+    width: 250px;
+}
+.botones{
+    
+    margin: auto;
+    width:1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+a{
+    border-width: 5px;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    text-decoration: none;
+}
+
+
+.botonLinux{
+    border-width: 0px;
+    border-bottom-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+.taller{
+    margin: 3px;
+    font-size:x-large;
+    display: flex;
+    justify-content: left;
+}
+.botonSistemas{
+    border-width: 0px;
+    border-bottom-width: 5px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+
+}
+.sistemas{
+    margin: 3px;
+    font-size:x-large;
+    display: flex;
+    justify-content: center;
+}
+.botonPrograma{
+    display: flex;
+    margin: 2px;
+    margin-right: 25px;
+    margin-left: 25px;
+    
+
+}
+.programacion{
+    margin: 3px;
+    font-size:x-large;
+    display: flex;
+    justify-content: left;
+    border-width: 0px;
+    border-top-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+
+.contenedorLinux{
+    transition: all .2s ease-in-out;
+}
+.contenedorLinux:hover{
+    transform: scale(1.2);
+}
+
+.contenedorSistemas{
+    transition: all .2s ease-in-out;
+}
+.contenedorSistemas:hover{
+    transform: scale(1.2);
+}
+
+.contenedorPrograma{
+    transition: all .2s ease-in-out;
+}
+.contenedorPrograma:hover{
+    transform: scale(1.2);
+}
+
